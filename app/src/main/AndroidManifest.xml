@@ -13,10 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ui.weather.Weather_2"></activity>
+        <activity android:name=".ui.music.MusicActivity"></activity>
+        <activity android:name=".ui.photo.PhotoFragment2" />
+        <activity android:name=".ui.weather.Weather_2" />
         <activity
             android:name=".ui.login.Weather_2"
-            android:label="@string/title_activity_weather_2"></activity>
+            android:label="@string/title_activity_weather_2" />
         <activity android:name=".ui.weather.Weather_1" />
         <activity android:name=".ui.weather.weather_1" />
         <activity

@@ -3,25 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_watch">
 
-    <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.qimo.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
-
-    <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.qimo.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
-
-    <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.qimo.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
     <fragment
         android:id="@+id/navigation_watch"
         android:name="com.example.qimo.ui.watch.WatchFragment"
@@ -29,7 +12,17 @@
         tools:layout="@layout/watch_fragment" />
     <fragment
         android:id="@+id/navigation_weather"
-        android:name="com.example.qimo.ui.weather.Weather_1"
+        android:name="com.example.qimo.ui.weather.WeatherFragment"
         android:label="@string/title_weather"
-        tools:layout="@layout/activity_weather_1" />
+        tools:layout="@layout/weather_fragment" />
+    <fragment
+        android:id="@+id/navigation_game"
+        android:name="com.example.qimo.ui.game.GameFragment"
+        android:label="@string/title_game"
+        tools:layout="@layout/fragment_game" />
+    <fragment
+        android:id="@+id/navigation_hello"
+        android:name="com.example.qimo.ui.hello.HelloFragment"
+        android:label="@string/title_hello"
+        tools:layout="@layout/fragment_hello" />
 </navigation>

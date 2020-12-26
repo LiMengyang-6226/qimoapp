@@ -4,7 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.weather.weather.Weather_2">
+    android:background="#C8AEED"
+    tools:context=".ui.weather.Weather_2">
+
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="150dp"
@@ -65,8 +68,10 @@
 
     <ListView
         android:id="@+id/listView_weather2"
+        android:background="#9874CC"
+
         android:layout_width="0dp"
-        android:layout_height="259dp"
+        android:layout_height="300dp"
         android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
