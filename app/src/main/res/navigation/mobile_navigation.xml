@@ -29,7 +29,7 @@
         tools:layout="@layout/watch_fragment" />
     <fragment
         android:id="@+id/navigation_weather"
-        android:name="com.example.qimo.ui.Weather.WeatherFragment"
+        android:name="com.example.qimo.ui.weather.Weather_1"
         android:label="@string/title_weather"
-        tools:layout="@layout/weather_fragment" />
+        tools:layout="@layout/activity_weather_1" />
 </navigation>
