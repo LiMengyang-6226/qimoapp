@@ -1,9 +1,7 @@
 package com.example.qimo;
 
 import android.os.Bundle;
-
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -20,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_watch,R.id.navigation_weather,
-                R.id.navigation_game,R.id.navigation_hello)
+                R.id.navigation_hello,R.id.navigation_weather,
+                R.id.navigation_game,R.id.navigation_watch)
                 .build();
 
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
